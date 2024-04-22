@@ -92,3 +92,5 @@ local.properties
 #  !modules/yourmodule
 #
 # ==================
+!/data/sql/custom/*
+!/src/server/scripts/Custom/*
