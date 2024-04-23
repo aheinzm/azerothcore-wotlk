@@ -18,11 +18,12 @@
 // This is where scripts' loading functions should be declared:
 // void MyExampleScript()
 void AddSC_restrict_character_creation();
-
+void AddSC_add_character_slot_on_max_level();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
 void AddCustomScripts()
 {
     AddSC_restrict_character_creation();
+    AddSC_add_character_slot_on_max_level();
 }
